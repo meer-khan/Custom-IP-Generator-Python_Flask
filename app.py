@@ -12,15 +12,16 @@ app = Flask(__name__)
 
 
 
-app.route('/IPgetter/', methods=["POST"])
+@app.route('/IPgetter/', methods=["POST"])
 def ip_generator(): 
+    print(request)
     data = request.json
     print("Data is: ", data, "\n\n")
     headers = request.headers
     print("Headers are: ", headers)
     client_ip = request.remote_addr
     print("CLIENT IP: ", client_ip)
-    return make_response(status= 200)
+    return make_response("OK", 200)
 
 
 
