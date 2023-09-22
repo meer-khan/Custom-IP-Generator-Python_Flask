@@ -1,4 +1,4 @@
-from flask import Flask,redirect,url_for,request,jsonify
+from flask import Flask,redirect,url_for,request,jsonify, make_response
 from markupsafe import escape
 import json, requests
 from flask_cors import CORS
@@ -13,4 +13,11 @@ app = Flask(__name__)
 
 
 app.route('/IPgetter/', methods=["POST"])
-def IP
+def ip_generator(): 
+    data = request.json
+    print("Data is: ", data, "\n\n")
+    headers = request.headers
+    print("Headers are: ", headers)
+
+    return make_response(status= 200)
+
