@@ -21,6 +21,8 @@ def ip_generator():
     print("Headers are: ", headers)
     client_ip = request.remote_addr
     print("CLIENT IP: ", client_ip)
+
+    print("ENVIRON: ", request.environ)
     return make_response("OK", 200)
 
 
