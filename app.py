@@ -18,8 +18,13 @@ def ip_generator():
     print("Data is: ", data, "\n\n")
     headers = request.headers
     print("Headers are: ", headers)
-
+    client_ip = request.remote_addr
+    print("CLIENT IP: ", client_ip)
     return make_response(status= 200)
 
+
+
+if __name__ == "__main__":
+    app.run(host = '0.0.0.0',debug=True, port=5001)
 
 
