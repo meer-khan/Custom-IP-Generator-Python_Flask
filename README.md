@@ -44,6 +44,12 @@ python app.py
 ```
 Your Flask application should now be running locally.  
 
-##Usage
+##Usage  
 Once the application is running, you can access it at http://localhost:5000. Now you can send a request to the server using ```client.py``` file.
+
+##API Endpoints
+The following API endpoints are available:
+
+/api/ip: POST custom IP addresses to the server.
+You can interact with these endpoints to send and retrieve custom IP addresses.
 
