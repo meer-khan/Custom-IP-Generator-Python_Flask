@@ -62,7 +62,7 @@ The client file allows you to send custom IP addresses to the Flask server. Foll
 3. Locate the `custom_ip` variable in the client file. It is the variable that holds the custom IP address you want to send to the server.  
 4. Modify the `custom_ip` variable to the desired IP address you want to send. For example:  
    ```python
-   custom_ip = "192.168.1.100"```
+   custom_ip = "192.168.1.100"
 5. Save the File  
 5. Open the Terminal, navigate to client file and run  
 ```bash
