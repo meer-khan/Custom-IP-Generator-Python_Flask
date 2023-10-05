@@ -42,3 +42,8 @@ cd Custom-IP-Generator-Python_Flask
 ```bash
 python app.py
 ```
+Your Flask application should now be running locally.  
+
+##Usage
+Once the application is running, you can access it at http://localhost:5000. Now you can send a request to the server using ```client.py``` file.
+
