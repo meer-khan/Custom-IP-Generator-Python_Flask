@@ -50,6 +50,6 @@ Once the application is running, you can access it at http://localhost:5000. Now
 ## API Endpoints
 The following API endpoints are available:
 
-Markup: * /api/ip: POST custom IP addresses to the server.
+Markup: * /IPgetter/: POST custom IP addresses to the server.
 You can interact with these endpoints to send and retrieve custom IP addresses.
 
