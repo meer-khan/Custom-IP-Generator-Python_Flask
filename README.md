@@ -28,6 +28,17 @@ pip install Flask
 ```
 
 ## Getting Started
+1. Clone this repository to your local machine:
 ```bash
 git clone https://github.com/yourusername/Custom-IP-Generator-Python_Flask.git
+```
+
+2. Change to the project directory:
+```bash
+cd Custom-IP-Generator-Python_Flask
+```
+
+3. Run the Flask application:
+```bash
+python app.py
 ```
