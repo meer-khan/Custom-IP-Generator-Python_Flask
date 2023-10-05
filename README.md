@@ -11,6 +11,7 @@ Custom IP Generator is a Python Flask application that allows you to access cust
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
+- [Running the Client File](#running-the-client-file)
 - [Contributing](#contributing)
 - [License](#license)
 
