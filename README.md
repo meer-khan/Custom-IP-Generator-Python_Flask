@@ -53,3 +53,12 @@ The following API endpoints are available:
 - /IPgetter/: POST custom IP addresses to the server.   
 You can interact with these endpoints to send and retrieve custom IP addresses.
 
+## Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+Fork the repository.
+Create a new branch for your feature: git checkout -b feature-name.
+Make your changes and commit them: git commit -m 'Add some feature'.
+Push to your branch: git push origin feature-name.
+Submit a pull request with a description of your changes.
+
