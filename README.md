@@ -25,3 +25,9 @@ You can install Flask using pip:
 
 ```bash
 pip install Flask
+```
+
+## Getting Started
+```bash
+git clone https://github.com/yourusername/Custom-IP-Generator-Python_Flask.git
+```
