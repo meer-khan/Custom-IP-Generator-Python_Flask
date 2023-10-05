@@ -65,9 +65,8 @@ The client file allows you to send custom IP addresses to the Flask server. Foll
    custom_ip = "192.168.1.100"
 5. Save the File  
 5. Open the Terminal, navigate to client file and run  
-```bash
-python client.py
-```
+   ```bash
+   python client.py
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
