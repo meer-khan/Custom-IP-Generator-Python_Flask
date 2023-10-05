@@ -53,6 +53,22 @@ The following API endpoints are available:
 - /IPgetter/: POST custom IP addresses to the server.   
 You can interact with these endpoints to send and retrieve custom IP addresses.
 
+## Running the Client File
+
+The client file allows you to send custom IP addresses to the Flask server. Follow these steps to run the client file:
+
+1. Ensure that you have Python 3.x installed on your local machine.  
+2. Open the client file in a text editor or Python IDE of your choice.  
+3. Locate the `custom_ip` variable in the client file. It is the variable that holds the custom IP address you want to send to the server.  
+4. Modify the `custom_ip` variable to the desired IP address you want to send. For example:  
+   ```python
+   custom_ip = "192.168.1.100"```
+5. Save the File  
+5. Open the Terminal, navigate to client file and run  
+```bash
+python client.py
+```
+
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
