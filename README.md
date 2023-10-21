@@ -2,6 +2,8 @@
 
 ![Python Version](https://img.shields.io/badge/Python-3.8%2B-brightgreen)
 ![Flask Version](https://img.shields.io/badge/Flask-2.0%2B-blue)
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 
 Custom IP Generator is a Python Flask application that allows you to access custom IP addresses sent from a client. This application serves as a simple example of a server-client interaction, where the Flask server receives custom IP addresses from the client and processes them.
 
